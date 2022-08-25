@@ -14,6 +14,7 @@ document.querySelector("#form").addEventListener("submit", function (e) {
   //console.log(sucessoLogin);
   if (!sucessoLogin) {
     e.preventDefault(); // previne que o form seja submetido
+    alert('Insira os dados para logar!');
     return;
   }
   alert("Logou com sucesso!");
